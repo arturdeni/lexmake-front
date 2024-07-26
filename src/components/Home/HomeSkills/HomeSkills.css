@@ -1,0 +1,27 @@
+.home-skills {
+  display: flex;
+  flex-direction: column;
+  margin: 120px 0 60px auto;
+}
+
+.home-skills__items-container {
+  display: flex;
+}
+
+.home-skills__item {
+  display: flex;
+  background-color: coral;
+  padding: 1em 0.5em;
+  min-width: 5em;
+}
+
+.home-skills__item p {
+  color: white;
+  font-size: 0.7em;
+  margin: auto;
+  text-align: center;
+}
+
+.home-skills__item:not(:last-child) {
+  margin-right: 20px;
+}

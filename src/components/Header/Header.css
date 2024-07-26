@@ -4,17 +4,10 @@
   align-items: center;
   padding: 10px 20px;
   position: fixed;
-  background-color: #f8f8f8;
-  border-bottom: 1px solid #ddd;
+  background-color: #f6f3eb;
   box-sizing: border-box;
   width: 100%;
   z-index: 100;
-}
-
-.logo a {
-  text-decoration: none;
-  font-size: 1.5em;
-  color: #333;
 }
 
 .nav-links {
@@ -24,8 +17,12 @@
   top: 50px;
   left: 0;
   width: 100%;
-  background-color: #f8f8f8;
+  background-color: #f6f3eb;
   border-top: 1px solid #ddd;
+}
+
+.logo svg {
+  width: 43px;
 }
 
 .nav-links.open {
@@ -37,10 +34,6 @@
   text-decoration: none;
   color: #333;
   border-bottom: 1px solid #ddd;
-}
-
-.nav-links a:hover {
-  background-color: #ddd;
 }
 
 @media (min-width: 768px) {
@@ -60,10 +53,12 @@
   .nav-links a {
     border-bottom: none;
     padding: 10px 20px;
+    transition: color 0.4s ease-in-out, box-shadow 0.6s ease-in-out;
   }
 
   .nav-links a:hover {
-    background-color: transparent;
+    box-shadow: inset 200px 0 0 0 var(--primary-color);
+    color: white;
   }
 
   .menu-button {
