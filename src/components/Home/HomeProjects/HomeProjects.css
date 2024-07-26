@@ -1,0 +1,26 @@
+.home-projects {
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+.home-projects__title {
+  margin-left: 20px;
+}
+
+.home-projects__sectionInner {
+  min-height: max-content;
+}
+
+.home-projects__item {
+  width: 200px;
+  height: 200px;
+}
+
+.home-projects__item + .home-projects__item {
+  margin-left: 120px;
+}
+
+[data-scroll-in-section] {
+  display: inline-flex;
+  padding-right: 50px;
+}

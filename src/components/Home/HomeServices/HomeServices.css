@@ -1,0 +1,39 @@
+.home-services {
+  display: flex;
+  flex-direction: column;
+  max-width: 50em;
+  margin: auto;
+}
+
+.home-services__title {
+  font-size: 2em;
+}
+
+.home-services__item {
+  position: relative;
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+  transition: padding 0.7s ease, margin 0.7s ease;
+}
+
+.home-services__item h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.home-services__description {
+  color: #000;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.7s ease, max-height 0.7s ease;
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+.home-services__item:hover .home-services__description {
+  opacity: 1;
+  max-height: 100px; /* Ajusta este valor según el contenido */
+}
