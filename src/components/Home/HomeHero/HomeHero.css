@@ -1,32 +1,29 @@
-.home__skills {
-  padding: 20px;
-}
-
-.home__intro {
+.home-hero {
   display: flex;
   flex-direction: column;
   padding: 20px;
 }
 
-.home__intro-logo {
+.home-hero__logo {
   margin: auto;
 }
 
-.home__intro-logo img {
+.home-hero__logo img {
   width: 20em;
 }
 
-.home__intro-text {
+.home-hero__description {
   font-size: 1.2em;
   margin: auto;
   max-width: 37em;
 }
 
 @media (min-width: 768px) {
-  .home__intro {
-    padding: 90px 20px;
+  .home-hero {
+    padding: 130px 20px;
   }
-  .home__intro-logo img {
+
+  .home-hero__logo img {
     width: 35em;
   }
 }

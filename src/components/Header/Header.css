@@ -11,14 +11,16 @@
 }
 
 .nav-links {
-  display: none;
+  display: flex;
   flex-direction: column;
   position: absolute;
   top: 50px;
   left: 0;
   width: 100%;
   background-color: #f6f3eb;
-  border-top: 1px solid #ddd;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
 }
 
 .logo svg {
@@ -26,11 +28,12 @@
 }
 
 .nav-links.open {
-  display: flex;
+  max-height: 300px;
 }
 
 .nav-links a {
   padding: 10px;
+  text-align: right;
   text-decoration: none;
   color: #333;
   border-bottom: 1px solid #ddd;
@@ -48,6 +51,9 @@
     width: auto;
     background-color: transparent;
     border-top: none;
+    max-height: none;
+    overflow: visible;
+    transition: none;
   }
 
   .nav-links a {
