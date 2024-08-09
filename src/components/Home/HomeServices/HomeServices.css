@@ -36,5 +36,30 @@
 
 .home-services__item:hover .home-services__description {
   opacity: 1;
-  max-height: 100px; /* Ajusta este valor según el contenido */
+  max-height: 100px;
+}
+
+.home-services__item-image {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* Inicialmente, la imagen es invisible, pequeña y rotada */
+  .home-services__item-image {
+    display: block;
+    position: absolute;
+    top: -120px;
+    left: 75%;
+    width: 9em;
+    z-index: 2;
+    opacity: 0;
+    transform: scale(0.2); /* Imagen pequeña y rotada al inicio */
+    transition: opacity 0.3s, transform 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  }
+
+  /* Al hacer hover, la imagen crece, rota y se vuelve visible */
+  .home-services__item:hover .home-services__item-image {
+    opacity: 1;
+    transform: scale(1); /* Imagen a tamaño normal sin rotación */
+  }
 }

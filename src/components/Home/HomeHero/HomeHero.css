@@ -15,7 +15,9 @@
 .home-hero__description {
   font-size: 1.2em;
   margin: auto;
+  margin-top: -20px;
   max-width: 37em;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
@@ -25,5 +27,9 @@
 
   .home-hero__logo img {
     width: 35em;
+  }
+
+  .home-hero__description {
+    margin-top: -32px;
   }
 }
