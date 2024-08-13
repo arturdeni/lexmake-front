@@ -1,16 +1,41 @@
 .home-projects {
-  padding: 125px 0;
-}
-
-.home-projects__title {
-  margin-left: 20px;
+  margin: 200px 0;
+  overflow: hidden;
 }
 
 .home-projects__container {
   display: flex;
+  overflow: hidden;
 }
 
 .home-projects__item {
-  width: 200px;
-  height: 200px;
+  display: grid;
+  flex-shrink: 0;
+  height: 300px;
+  width: 300px;
+  place-items: center;
+}
+
+.home-projects__item:nth-child(1) {
+  background-color: goldenrod;
+  margin-right: 20px;
+}
+
+.home-projects__item:nth-child(2) {
+  background-color: darksalmon;
+  margin-right: 20px;
+}
+
+.home-projects__item:nth-child(3) {
+  background-color: lightcoral;
+  margin-right: 20px;
+}
+
+.home-projects__item:nth-child(4) {
+  background-color: brown;
+  margin-right: 20px;
+}
+
+.home-projects__item:nth-child(5) {
+  background-color: darkslategray;
 }

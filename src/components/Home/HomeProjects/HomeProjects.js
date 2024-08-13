@@ -1,46 +1,44 @@
-import React from "react";
+import React, { useLayoutEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 import "./HomeProjects.css";
 
 const HomeProjects = () => {
+  const projects = useRef(null);
+
+  useLayoutEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from(projects.current, {
+      x: -100,
+      scrollTrigger: {
+        trigger: projects.current,
+        start: "top 80%",
+        end: "bottom 20%",
+        scrub: 1,
+        markers: true,
+      },
+    });
+  }, []);
+
   return (
     <section className="home-projects">
-      <h2 className="home-projects__title">Proyectos</h2>
       <div className="home-projects__container">
-        <div
-          className="home-projects__item"
-          style={{ backgroundColor: "cadetblue" }}
-        >
-          Proyecto 1
+        <div className="home-projects__item">
+          <p>Project 1</p>
         </div>
-        <div
-          className="home-projects__item"
-          style={{ backgroundColor: "coral" }}
-        >
-          Proyecto 2
+        <div className="home-projects__item">
+          <p>Project 2</p>
         </div>
-        <div
-          className="home-projects__item"
-          style={{ backgroundColor: "cornsilk" }}
-        >
-          Proyecto 3
+        <div className="home-projects__item">
+          <p>Project 3</p>
         </div>
-        <div
-          className="home-projects__item"
-          style={{ backgroundColor: "lightgreen" }}
-        >
-          Proyecto 4
+        <div className="home-projects__item">
+          <p>Project 4</p>
         </div>
-        <div
-          className="home-projects__item"
-          style={{ backgroundColor: "lightblue" }}
-        >
-          Proyecto 5
-        </div>
-        <div
-          className="home-projects__item"
-          style={{ backgroundColor: "lightcoral" }}
-        >
-          Proyecto 6
+        <div className="home-projects__item">
+          <p>Project 5</p>
         </div>
       </div>
     </section>

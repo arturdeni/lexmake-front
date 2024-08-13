@@ -53,7 +53,7 @@
     width: 9em;
     z-index: 2;
     opacity: 0;
-    transform: scale(0.2); /* Imagen pequeña y rotada al inicio */
+    transform: scale(0.8); /* Imagen pequeña y rotada al inicio */
     transition: opacity 0.3s, transform 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   }
 
