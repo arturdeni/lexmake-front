@@ -12,7 +12,7 @@ const HomeSkills = () => {
     gsap.from(
       animateUp.current,
       {
-        yPercent: -150,
+        yPercent: -100,
         duration: 1.2,
         delay: 0.6,
         opacity: 0,
