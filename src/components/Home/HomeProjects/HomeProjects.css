@@ -1,16 +1,10 @@
 .home-projects {
-  margin: 25px 0 200px;
-}
-
-.home-projects__container {
-  display: flex;
+  margin: 25px 0;
 }
 
 .home-projects__item {
-  flex-shrink: 0;
+  height: 250px;
   position: relative;
-  height: 440px;
-  width: 580px;
 }
 
 .home-projects__item img {
@@ -45,4 +39,20 @@
   color: var(--primary-color);
   display: grid;
   place-items: center;
+}
+
+@media (min-width: 768px) {
+  .home-projects {
+    margin: 25px 0 200px;
+  }
+
+  .home-projects__container {
+    display: flex;
+  }
+
+  .home-projects__item {
+    flex-shrink: 0;
+    height: 440px;
+    width: 580px;
+  }
 }

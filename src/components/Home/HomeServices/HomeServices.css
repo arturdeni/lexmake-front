@@ -5,14 +5,14 @@
   margin: auto;
 }
 
-.home-services__title {
-  font-size: 2em;
+.home-services h1 {
+  padding: 0 20px;
 }
 
 .home-services__item {
   position: relative;
   margin: 10px 0;
-  padding: 10px;
+  padding: 0 20px;
   border-bottom: 1px solid #000;
   transition: padding 0.7s ease, margin 0.7s ease;
 }
@@ -44,6 +44,14 @@
 }
 
 @media (min-width: 768px) {
+  .home-services h1 {
+    padding: 0;
+  }
+
+  .home-services__item {
+    padding: 10px;
+  }
+
   /* Inicialmente, la imagen es invisible, pequeña y rotada */
   .home-services__item-image {
     display: block;

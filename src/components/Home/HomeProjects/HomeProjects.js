@@ -22,18 +22,20 @@ const HomeProjects = () => {
     const containerWidth = projects.current.scrollWidth;
     const viewportWidth = window.innerWidth;
 
-    gsap.to(projects.current, {
-      x: -(containerWidth - viewportWidth), // Mover hacia la izquierda el ancho total menos el viewport
-      ease: "none",
-      scrollTrigger: {
-        trigger: projects_container.current,
-        start: "center center", // Inicia la animación cuando el top del contenedor llega al top del viewport
-        end: `+=${containerWidth - viewportWidth}`, // La animación dura hasta que se haya desplazado el contenedor completamente
-        scrub: 1, // Hacer que la animación siga el scroll
-        pin: true, // Fijar el contenedor mientras dura la animación
-        anticipatePin: 1, // Hacer que el contenedor se fije antes de que la animación empiece
-      },
-    });
+    if (viewportWidth > 768) {
+      gsap.to(projects.current, {
+        x: -(containerWidth - viewportWidth), // Mover hacia la izquierda el ancho total menos el viewport
+        ease: "none",
+        scrollTrigger: {
+          trigger: projects_container.current,
+          start: "center center", // Inicia la animación cuando el top del contenedor llega al top del viewport
+          end: `+=${containerWidth - viewportWidth}`, // La animación dura hasta que se haya desplazado el contenedor completamente
+          scrub: 1, // Hacer que la animación siga el scroll
+          pin: true, // Fijar el contenedor mientras dura la animación
+          anticipatePin: 1, // Hacer que el contenedor se fije antes de que la animación empiece
+        },
+      });
+    }
   });
 
   return (

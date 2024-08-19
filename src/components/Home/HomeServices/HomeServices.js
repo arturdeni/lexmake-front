@@ -6,9 +6,7 @@ import graphicDesignLexMake from "../../../assets/images/graphicDesignLexMake.jp
 const HomeServices = () => {
   return (
     <section className="home-services">
-      <h1 className="home-services__title">
-        Servicios que dan vida a tus ideas
-      </h1>
+      <h1>Servicios que dan vida a tus ideas</h1>
       <div className="home-services__item">
         <h3>Diseño gráfico</h3>
         <p className="home-services__description">

@@ -39,4 +39,8 @@ code {
   .main-content {
     margin-top: 0;
   }
+
+  h1 {
+    font-size: 2em;
+  }
 }
