@@ -1,0 +1,35 @@
+.home-hero {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.home-hero__logo {
+  margin: auto;
+}
+
+.home-hero__logo img {
+  width: 20em;
+}
+
+.home-hero__description {
+  font-size: 1.2em;
+  margin: auto;
+  margin-top: -20px;
+  max-width: 37em;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .home-hero {
+    padding: 130px 20px;
+  }
+
+  .home-hero__logo img {
+    width: 35em;
+  }
+
+  .home-hero__description {
+    margin-top: -15px;
+  }
+}

@@ -7,25 +7,22 @@ import Projects from "./components/Projects/Projects";
 import ProjectDetail from "./components/Projects/ProjectDetail/ProjectDetail";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import ScrollProvider from "./components/ScrollProvider"; // Importa ScrollProvider
 import "./index.css"; // Importa estilos globales
 
 const App = () => (
   <Router>
-    <ScrollProvider>
-      <div className="app-container">
-        <Header /> {/* Header común */}
-        <main className="main-content">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/projects/:id" element={<ProjectDetail />} />
-          </Routes>
-        </main>
-        <Footer /> {/* Footer común */}
-      </div>
-    </ScrollProvider>
+    <div className="app-container">
+      <Header /> {/* Header común */}
+      <main className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<ProjectDetail />} />
+        </Routes>
+      </main>
+      <Footer /> {/* Footer común */}
+    </div>
   </Router>
 );
 
