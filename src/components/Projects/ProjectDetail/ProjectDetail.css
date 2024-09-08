@@ -1,0 +1,39 @@
+.project-detail {
+  margin: 1em;
+  color: black;
+}
+
+.project-detail__header {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-detail__header h1 {
+  margin-bottom: 0.2em;
+}
+
+.project-detail__header-year {
+  font-size: 1.3em;
+}
+
+.project-detail__front-image {
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-detail__description h3 {
+  margin: 0.3em 0;
+}
+
+.project-detail__description p {
+  margin: 0.3em 0 1em;
+}
+
+.project-detail__image {
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+}

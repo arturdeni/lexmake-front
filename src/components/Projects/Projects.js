@@ -1,23 +1,32 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import HaveAnIdea from "../shared/HaveAnIdea/HaveAnIdea";
+import projectsData from "../../services/projects.json";
 
-const projects = [
-  { id: 1, name: "Proyecto 1", description: "Descripción del proyecto 1" },
-  { id: 2, name: "Proyecto 2", description: "Descripción del proyecto 2" },
-  { id: 3, name: "Proyecto 3", description: "Descripción del proyecto 3" },
-];
+import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="projects">
       <h1>Proyectos</h1>
       <ul>
-        {projects.map((project) => (
-          <li key={project.id}>
-            <Link to={`/projects/${project.id}`}>{project.name}</Link>
+        {projectsData.projects.map((project) => (
+          <li key={project.id} className="projects-item">
+            <Link to={`/projects/${project["url-title"]}`}>
+              <img
+                src={project.frontImage}
+                alt={project.title}
+                className="projects-item-image"
+              />
+              <div className="projects-item-description">
+                <h3>{project.title}</h3>
+                <p>{project.categories}</p>
+              </div>
+            </Link>
           </li>
         ))}
       </ul>
+      <HaveAnIdea />
     </div>
   );
 };
