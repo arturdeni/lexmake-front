@@ -1,36 +1,51 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import projectsData from "../../../services/projects.json";
+import HaveAnIdea from "../../shared/HaveAnIdea/HaveAnIdea";
 
-const projects = [
-  {
-    id: 1,
-    name: "Proyecto 1",
-    description: "Descripción detallada del proyecto 1",
-  },
-  {
-    id: 2,
-    name: "Proyecto 2",
-    description: "Descripción detallada del proyecto 2",
-  },
-  {
-    id: 3,
-    name: "Proyecto 3",
-    description: "Descripción detallada del proyecto 3",
-  },
-];
+import "./ProjectDetail.css";
 
 const ProjectDetail = () => {
-  const { id } = useParams();
-  const project = projects.find((proj) => proj.id === parseInt(id));
+  const projects = projectsData.projects;
+  const { urlTitle } = useParams();
+  const project = projects.find((proj) => proj["url-title"] === urlTitle);
 
   if (!project) {
     return <h1>Proyecto no encontrado</h1>;
   }
 
   return (
-    <div>
-      <h1>{project.name}</h1>
-      <p>{project.description}</p>
+    <div className="project-detail">
+      <div className="project-detail__header">
+        <h1>{project.title}</h1>
+        <span className="project-detail__header-year">{project.year}</span>
+      </div>
+      <img
+        className="project-detail__front-image"
+        src={project.frontImage}
+        alt={project.title}
+      />
+      <div className="project-detail__description">
+        <h3>Descripción</h3>
+        <p>{project.description}</p>
+        <span style={{ fontWeight: "bold" }}>¿Qué se hizo?</span>
+        <ul>
+          {project.details?.map((detail, index) => (
+            <li key={index}>{detail}</li>
+          ))}
+        </ul>
+      </div>
+      <div className="project-detail__images">
+        {project.images?.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={project.title}
+            className="project-detail__image"
+          />
+        ))}
+      </div>
+      <HaveAnIdea />
     </div>
   );
 };

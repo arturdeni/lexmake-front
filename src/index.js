@@ -18,7 +18,7 @@ const App = () => (
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/:id" element={<ProjectDetail />} />
+          <Route path="/projects/:urlTitle" element={<ProjectDetail />} />
         </Routes>
       </main>
       <Footer /> {/* Footer común */}

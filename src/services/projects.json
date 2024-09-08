@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "url-title": "weye",
+      "title": "Weye",
+      "description": "Un proyecto de coworking que empezó desde cero, con cada detalle cuidadosamente planificado para fomentar la colaboración, la creatividad y la comunidad. Este proyecto no solo involucra el diseño físico del espacio, sino también la creación de una identidad de marca y la presencia en línea que refleja los valores y la visión del coworking",
+      "details": [
+        "Diseño de interiores",
+        "Diseño de marca",
+        "Diseño web",
+        "Fotografía de producto",
+        "Fotografía de interiores",
+        "Fotografía de arquitectura"
+      ],
+      "year": 2020,
+      "categories": ["Categoría 1", "Categoría 2"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/weye_hc3ukw.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525521/Weyedetails2_rkuhpq.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/weyedetails-1_jmski8.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/weyedetails_bo5n2s.png"
+      ]
+    },
+    {
+      "id": 2,
+      "url-title": "estiber",
+      "title": "Estiber",
+      "description": "Descripción del proyecto 2",
+      "year": 2021,
+      "categories": ["Categoría 3", "Categoría 4"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/estiber_mbj4nj.png",
+      "images": ["ruta/imagen5.jpg", "ruta/imagen6.jpg"]
+    },
+    {
+      "id": 3,
+      "url-title": "regatta",
+      "title": "Regatta",
+      "description": "Descripción del proyecto 3",
+      "year": 2022,
+      "categories": ["Categoría 1", "Categoría 4"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525519/regatta_bstymy.png",
+      "images": ["ruta/imagen8.jpg", "ruta/imagen9.jpg"]
+    }
+  ]
+}
