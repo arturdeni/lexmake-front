@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import HaveAnIdea from "../shared/HaveAnIdea/HaveAnIdea";
 import projectsData from "../../services/projects.json";
 
@@ -20,7 +21,16 @@ const Projects = () => {
               />
               <div className="projects-item-description">
                 <h3>{project.title}</h3>
-                <p>{project.categories}</p>
+                <div>
+                  {project.categories.map((category) => (
+                    <span
+                      key={category}
+                      className="projects-item-description__category"
+                    >
+                      {category}
+                    </span>
+                  ))}
+                </div>
               </div>
             </Link>
           </li>

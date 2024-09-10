@@ -7,10 +7,12 @@ import Projects from "./components/Projects/Projects";
 import ProjectDetail from "./components/Projects/ProjectDetail/ProjectDetail";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import "./index.css"; // Importa estilos globales
+import ScrollToTop from "./components/utils/ScrollToTop";
+import "./index.css";
 
 const App = () => (
   <Router>
+    <ScrollToTop />
     <div className="app-container">
       <Header /> {/* Header común */}
       <main className="main-content">

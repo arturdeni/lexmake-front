@@ -4,7 +4,7 @@
   align-items: center;
   padding: 10px 20px;
   position: fixed;
-  background-color: #f6f3eb;
+  background-color: transparent;
   box-sizing: border-box;
   width: 100%;
   z-index: 100;
@@ -13,14 +13,15 @@
 .nav-links {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 50px;
-  left: 0;
+  position: fixed; /* Cambiado de absolute a fixed */
+  top: 0;
+  right: -100%; /* Empieza fuera de la pantalla a la derecha */
   width: 100%;
+  height: 100%; /* Ocupará toda la pantalla cuando esté abierto */
   background-color: #f6f3eb;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease-out;
+  transition: right 0.5s ease-out; /* Desplazamiento suave de derecha a izquierda */
+  z-index: 9;
+  padding-top: 60px;
 }
 
 .logo svg {
@@ -28,15 +29,16 @@
 }
 
 .nav-links.open {
-  max-height: 300px;
+  right: 0; /* Cuando se abra, se desplaza a la izquierda ocupando toda la pantalla */
 }
 
 .nav-links a {
-  padding: 10px;
-  text-align: right;
+  padding: 20px;
+  text-align: center; /* Centramos el texto */
   text-decoration: none;
   color: #333;
   border-bottom: 1px solid #ddd;
+  font-size: 1.5rem; /* Ajustamos el tamaño para pantallas grandes */
 }
 
 @media (min-width: 768px) {
@@ -49,16 +51,19 @@
     flex-direction: row;
     position: static;
     width: auto;
+    height: auto; /* Restauramos el tamaño original en pantallas grandes */
     background-color: transparent;
-    border-top: none;
     max-height: none;
+    padding-top: 0;
     overflow: visible;
     transition: none;
+    right: 0; /* Reseteamos la posición para pantallas grandes */
   }
 
   .nav-links a {
-    border-bottom: none;
+    font-size: 1rem;
     padding: 10px 20px;
+    border-bottom: none;
     transition: color 0.4s ease-in-out, box-shadow 0.6s ease-in-out;
   }
 
