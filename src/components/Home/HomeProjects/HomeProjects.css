@@ -36,9 +36,13 @@
 }
 
 .home-projects__item:last-child {
-  color: var(--primary-color);
   display: grid;
   place-items: center;
+}
+
+.home-projects__item:last-child a {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
