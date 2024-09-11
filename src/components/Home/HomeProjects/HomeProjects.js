@@ -1,4 +1,6 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
+
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -42,54 +44,68 @@ const HomeProjects = () => {
     <section className="home-projects" ref={projects_container}>
       <div className="home-projects__container" ref={projects}>
         <div className="home-projects__item">
-          <img src={estiberImage} alt="Estiber Project" />
-          <div className="home-projects__item-description">
-            <h3>Estiber</h3>
-            <p>Logo, brand identity and web.</p>
-          </div>
+          <Link to={"/projects/estiber"}>
+            <img src={estiberImage} alt="Estiber Project" />
+            <div className="home-projects__item-description">
+              <h3>Estiber</h3>
+              <p>Logo, brand identity and web.</p>
+            </div>
+          </Link>
         </div>
         <div className="home-projects__item">
-          <img src={misoilImage} alt="Misoil Project" />
-          <div className="home-projects__item-description">
-            <h3>Misoil</h3>
-            <p>Mockups and social media.</p>
-          </div>
+          <Link to={"/projects/misoil"}>
+            <img src={misoilImage} alt="Misoil Project" />
+            <div className="home-projects__item-description">
+              <h3>Misoil</h3>
+              <p>Mockups and social media.</p>
+            </div>
+          </Link>
         </div>
         <div className="home-projects__item">
-          <img src={weyeImage} alt="Weye Project" />
-          <div className="home-projects__item-description">
-            <h3>Weye</h3>
-            <p>Packaging and brand identity.</p>
-          </div>
+          <Link to={"/projects/weye"}>
+            <img src={weyeImage} alt="Weye Project" />
+            <div className="home-projects__item-description">
+              <h3>Weye</h3>
+              <p>Packaging and brand identity.</p>
+            </div>
+          </Link>
         </div>
         <div className="home-projects__item">
-          <img src={regattaImage} alt="Regatta Project" />
-          <div className="home-projects__item-description">
-            <h3>Regatta Fund Fi</h3>
-            <p>
-              Brand identity and web design for a financial services company.
-            </p>
-          </div>
+          <Link to={"/projects/regatta"}>
+            <img src={regattaImage} alt="Regatta Project" />
+            <div className="home-projects__item-description">
+              <h3>Regatta Fund Fi</h3>
+              <p>
+                Brand identity and web design for a financial services company.
+              </p>
+            </div>
+          </Link>
         </div>
         <div className="home-projects__item">
-          <img src={garrotxaImage} alt="Garrotxa Project" />
-          <div className="home-projects__item-description">
-            <h3>Garrotxa Startup</h3>
-            <p>
-              Brand identity and web design for a startup that offers guided
-              tours in La Garrotxa.
-            </p>
-          </div>
+          <Link to={"/projects/garrotxa"}>
+            <img src={garrotxaImage} alt="Garrotxa Project" />
+            <div className="home-projects__item-description">
+              <h3>Garrotxa Startup</h3>
+              <p>
+                Brand identity and web design for a startup that offers guided
+                tours in La Garrotxa.
+              </p>
+            </div>
+          </Link>
         </div>
         <div className="home-projects__item">
-          <img src={olivellaImage} alt="Olivella Project" />
-          <div className="home-projects__item-description">
-            <h3>Cuinats Olivella</h3>
-            <p>Web design for a company that offers catering services.</p>
-          </div>
+          <Link to={"/projects/olivella"}>
+            <img src={olivellaImage} alt="Olivella Project" />
+            <div className="home-projects__item-description">
+              <h3>Cuinats Olivella</h3>
+              <p>Web design for a company that offers catering services.</p>
+            </div>
+          </Link>
         </div>
         <div className="home-projects__item">
-          <h3>Otros Proyectos</h3>
+          <Link to={"/projects"}>
+            <button className="lexmake-button">Otros Proyectos</button>
+          </Link>
         </div>
       </div>
     </section>

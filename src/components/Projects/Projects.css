@@ -1,5 +1,9 @@
 .projects h1 {
+  font-family: var(--runway-font);
+  font-size: 3em;
+  font-weight: 400;
   text-align: center;
+  margin: 2em 0;
 }
 
 .projects ul {

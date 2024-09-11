@@ -1,6 +1,16 @@
+@font-face {
+  font-family: "RunwayBlend"; /* Nombre de la fuente */
+  src: url("./assets/fonts/Runway-Blend.woff2") format("woff2"),
+    url("./assets/fonts/Runway-Blend.woff") format("woff"),
+    url("./assets/fonts/Runway-Blend.otf") format("opentype"); /* OTF como fallback */
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --primary-color: #0000ff;
   --secondary-color: #f6f3eb;
+  --runway-font: "RunwayBlend", sans-serif;
 }
 
 body,
@@ -33,6 +43,23 @@ html,
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.lexmake-button {
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+  color: var(--primary-color);
+  cursor: pointer;
+  font-size: 1.2em;
+  background-color: transparent;
+  padding: 10px 25px;
+  margin-top: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.lexmake-button:hover {
+  background-color: var(--primary-color);
+  color: white;
 }
 
 @media (min-width: 768px) {

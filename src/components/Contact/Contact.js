@@ -167,33 +167,27 @@ const Contact = () => {
         <p>alexiaviladot@lexmake.com</p>
         <div className="contact__social">
           <a
-            href="https://www.linkedin.com/in/alexiaviladot/"
+            href="https://www.instagram.com/lexmake_/"
             target="_blank"
             rel="noreferrer"
           >
             <InstagramIcon color="#0000ff" />
           </a>
           <a
-            href="https://www.instagram.com/lexmake/"
+            href="https://www.tiktok.com/@lexmake"
             target="_blank"
             rel="noreferrer"
           >
             <TiktokIcon color="#0000ff" />
           </a>
           <a
-            href="https://twitter.com/lexmake"
+            href="https://www.linkedin.com/company/lexmake/"
             target="_blank"
             rel="noreferrer"
           >
             <LinkedInIcon color="#0000ff" />
           </a>
-          <a
-            href="https://twitter.com/lexmake"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <WhatsAppIcon color="#0000ff" />
-          </a>
+          <WhatsAppIcon color="#0000ff" />
         </div>
         <p>Rambla Catalunya 38, Planta 9. 08007, Barcelona</p>
       </div>

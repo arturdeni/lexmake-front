@@ -13,7 +13,7 @@ const HaveAnIdea = () => {
         </strong>
       </p>
       <a href="/contact">
-        <button className="have-an-idea__button">Tengo una idea</button>
+        <button className="lexmake-button">Tengo una idea</button>
       </a>
     </div>
   );
