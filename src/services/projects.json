@@ -30,7 +30,11 @@
       "year": 2021,
       "categories": ["Branding", "RRSS"],
       "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/estiber_mbj4nj.png",
-      "images": ["ruta/imagen5.jpg", "ruta/imagen6.jpg"]
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525519/estiberdetails_pfnxyv.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/estiberdetails-2_fowoow.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/estiberdetails-1_hp4eaa.png"
+      ]
     },
     {
       "id": 3,
@@ -43,9 +47,9 @@
       "images": ["ruta/imagen8.jpg", "ruta/imagen9.jpg"]
     },
     {
-      "id": 1,
-      "url-title": "weye",
-      "title": "Weye",
+      "id": 4,
+      "url-title": "smooth",
+      "title": "Smooth",
       "description": "Un proyecto de coworking que empezó desde cero, con cada detalle cuidadosamente planificado para fomentar la colaboración, la creatividad y la comunidad. Este proyecto no solo involucra el diseño físico del espacio, sino también la creación de una identidad de marca y la presencia en línea que refleja los valores y la visión del coworking",
       "details": [
         "Diseño de interiores",
@@ -57,11 +61,99 @@
       ],
       "year": 2020,
       "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/weye_hc3ukw.png",
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth-3_cgzfww.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525521/Weyedetails2_rkuhpq.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/weyedetails-1_jmski8.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/weyedetails_bo5n2s.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+      ]
+    },
+    {
+      "id": 5,
+      "url-title": "barcino",
+      "title": "Club Barcino",
+      "description": "Club de tenis y pádel en Barcelona",
+      "details": [
+        "Diseño de interiores",
+        "Diseño de marca",
+        "Diseño web",
+        "Fotografía de producto",
+        "Fotografía de interiores",
+        "Fotografía de arquitectura"
+      ],
+      "year": 2023,
+      "categories": ["Web", "RRSS"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/barcino_lt4pjs.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+      ]
+    },
+    {
+      "id": 6,
+      "url-title": "pi-light",
+      "title": "Pi Light",
+      "description": "Tienda de iluminación en Barcelona",
+      "details": [
+        "Diseño de interiores",
+        "Diseño de marca",
+        "Diseño web",
+        "Fotografía de producto",
+        "Fotografía de interiores",
+        "Fotografía de arquitectura"
+      ],
+      "year": 2023,
+      "categories": ["Web", "RRSS"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/pilight_clkfcr.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+      ]
+    },
+    {
+      "id": 7,
+      "url-title": "marc-esteba",
+      "title": "Marc Esteba",
+      "description": "Restaurante en Barcelona",
+      "details": [
+        "Diseño de interiores",
+        "Diseño de marca",
+        "Diseño web",
+        "Fotografía de producto",
+        "Fotografía de interiores",
+        "Fotografía de arquitectura"
+      ],
+      "year": 2023,
+      "categories": ["Web", "RRSS"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/marc-esteba_xs3nha.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+      ]
+    },
+    {
+      "id": 8,
+      "url-title": "cuinats-olivella",
+      "title": "Cuinats Olivella",
+      "description": "Restaurante en Barcelona",
+      "details": [
+        "Diseño de interiores",
+        "Diseño de marca",
+        "Diseño web",
+        "Fotografía de producto",
+        "Fotografía de interiores",
+        "Fotografía de arquitectura"
+      ],
+      "year": 2023,
+      "categories": ["Web", "RRSS"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
       ]
     }
   ]
