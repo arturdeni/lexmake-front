@@ -24,6 +24,28 @@ const HomeProjects = () => {
     const containerWidth = projects.current.scrollWidth;
     const viewportWidth = window.innerWidth;
 
+    if (viewportWidth <= 768) {
+      const items = gsap.utils.toArray(".home-projects__item");
+
+      items.forEach((item) => {
+        gsap.fromTo(
+          item,
+          { opacity: 0, y: 50 }, // Comienza desde 50px abajo y opacidad 0
+          {
+            opacity: 1,
+            y: 0, // Mueve hacia su posición original
+            duration: 1, // Duración de la animación
+            ease: "power3.out",
+            scrollTrigger: {
+              trigger: item,
+              start: "top 80%", // Inicia cuando el item esté en el 80% del viewport
+              toggleActions: "play none none reverse", // Reproduce al entrar y revierte al salir
+            },
+          }
+        );
+      });
+    }
+
     if (viewportWidth > 768) {
       gsap.to(projects.current, {
         x: -(containerWidth - viewportWidth), // Mover hacia la izquierda el ancho total menos el viewport
@@ -48,7 +70,7 @@ const HomeProjects = () => {
             <img src={estiberImage} alt="Estiber Project" />
             <div className="home-projects__item-description">
               <h3>Estiber</h3>
-              <p>Logo, brand identity and web.</p>
+              <p>Logo, brand y web</p>
             </div>
           </Link>
         </div>
@@ -57,7 +79,7 @@ const HomeProjects = () => {
             <img src={misoilImage} alt="Misoil Project" />
             <div className="home-projects__item-description">
               <h3>Misoil</h3>
-              <p>Mockups and social media.</p>
+              <p>Mockups y RRSS</p>
             </div>
           </Link>
         </div>
@@ -66,7 +88,7 @@ const HomeProjects = () => {
             <img src={weyeImage} alt="Weye Project" />
             <div className="home-projects__item-description">
               <h3>Weye</h3>
-              <p>Packaging and brand identity.</p>
+              <p>Packaging y Brand</p>
             </div>
           </Link>
         </div>
@@ -75,9 +97,7 @@ const HomeProjects = () => {
             <img src={regattaImage} alt="Regatta Project" />
             <div className="home-projects__item-description">
               <h3>Regatta Fund Fi</h3>
-              <p>
-                Brand identity and web design for a financial services company.
-              </p>
+              <p>Brand y Web</p>
             </div>
           </Link>
         </div>
@@ -86,10 +106,7 @@ const HomeProjects = () => {
             <img src={garrotxaImage} alt="Garrotxa Project" />
             <div className="home-projects__item-description">
               <h3>Garrotxa Startup</h3>
-              <p>
-                Brand identity and web design for a startup that offers guided
-                tours in La Garrotxa.
-              </p>
+              <p>Brand, Web y RRSS</p>
             </div>
           </Link>
         </div>
@@ -98,7 +115,7 @@ const HomeProjects = () => {
             <img src={olivellaImage} alt="Olivella Project" />
             <div className="home-projects__item-description">
               <h3>Cuinats Olivella</h3>
-              <p>Web design for a company that offers catering services.</p>
+              <p>Brand</p>
             </div>
           </Link>
         </div>
