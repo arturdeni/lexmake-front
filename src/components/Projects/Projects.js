@@ -9,7 +9,7 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div className="projects">
-      <h1>Proyectos</h1>
+      <h1 className="slide-in-blurred-top">Proyectos</h1>
       <ul>
         {projectsData.projects.map((project) => (
           <li key={project.id} className="projects-item">

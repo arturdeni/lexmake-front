@@ -15,7 +15,7 @@ const HomeSkills = () => {
   return (
     <section className="home-skills">
       <h1>My skills</h1>
-      <p>Estos son algunos de los programas y herramientas que manejo.</p>
+      <p>Estas son algunas de las herramientas y aplicaciones que domino.</p>
       <div className="home-skills__items-container">
         <div className="home-skills__item">
           <img src={photoshopImage} alt="Photoshop" />

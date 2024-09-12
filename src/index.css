@@ -50,9 +50,9 @@ code {
   border-radius: 50px;
   color: var(--primary-color);
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 1.1em;
   background-color: transparent;
-  padding: 10px 25px;
+  padding: 8px 15px;
   margin-top: 10px;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -62,12 +62,14 @@ code {
   color: white;
 }
 
+h1 {
+  font-family: var(--runway-font);
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
 @media (min-width: 768px) {
   .main-content {
     margin-top: 0;
-  }
-
-  h1 {
-    font-size: 2em;
   }
 }
