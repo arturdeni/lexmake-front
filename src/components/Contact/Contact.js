@@ -160,7 +160,9 @@ const Contact = () => {
         />
         {errors.detalles && <p className="error">{errors.detalles}</p>}
 
-        <button type="submit">Enviar</button>
+        <button className="lexmake-button" type="submit">
+          Enviar
+        </button>
       </form>
 
       <div className="contact__info">
