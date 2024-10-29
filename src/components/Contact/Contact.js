@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com"; // Importa emailjs
+import { Card2 } from "./Card2/Card2";
 import InstagramIcon from "../../assets/icons/rrss/instagram-icon";
 import TiktokIcon from "../../assets/icons/rrss/tiktok-icon";
 import LinkedInIcon from "../../assets/icons/rrss/linkedin-icon";
@@ -164,6 +165,17 @@ const Contact = () => {
           Enviar
         </button>
       </form>
+
+      <Card2
+        image={
+          "https://res.cloudinary.com/dgeaapj3n/image/upload/v1730192509/IMG_1593_2_ror5pw.png"
+        }
+        title="Alexia Viladot"
+        subtitle="Graphic Designer"
+        description="Empowering users through captivating interfaces, turning ideas into pixel-perfect realities."
+        onProfile={() => {}} // No hacer nada
+        onFollow={() => {}} // No hacer nada
+      />
 
       <div className="contact__info">
         <p>alexiaviladot@lexmake.com</p>
