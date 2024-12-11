@@ -1,0 +1,191 @@
+/* Estilos base (móvil primero) */
+.about-container {
+  max-width: 870px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-title {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+.about-top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.about-image-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.about-image-container::before {
+  display: none; /* Ocultamos el efecto radial en móvil */
+}
+
+.about-alexia-image {
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  object-fit: contain;
+}
+
+.about-text-primary {
+  color: black;
+  font-family: var(--runway-font);
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.blue-line {
+  display: none; /* Ocultamos la línea azul en móvil */
+}
+
+.about-bottom-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 30px 0;
+}
+
+.about-text-secondary {
+  width: 100%;
+  margin: 0;
+  color: black;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.quote-section {
+  width: 100%;
+}
+
+.quote-container {
+  position: relative;
+  padding: 20px;
+}
+
+.quote-text {
+  font-family: var(--runway-font);
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  position: relative;
+  z-index: 2;
+}
+
+.quote-mark {
+  position: absolute;
+  opacity: 0.5;
+  width: 60px;
+  height: 60px;
+}
+
+.quote-mark-left {
+  top: -10px;
+  left: -20px;
+}
+
+.quote-mark-right {
+  bottom: 0;
+  right: 10px;
+  transform: rotate(180deg);
+}
+
+/* Estilos desktop */
+@media (min-width: 768px) {
+  .about-container {
+    padding: 40px 20px;
+  }
+
+  .about-title {
+    font-size: 3rem;
+  }
+
+  .about-top-section {
+    flex-direction: row;
+    margin: 0 30px;
+  }
+
+  .about-image-container {
+    z-index: 1;
+  }
+
+  .about-image-container::before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    top: -15%;
+    left: -15%;
+    background: radial-gradient(
+      circle at center,
+      rgba(0, 0, 255, 0.3) 0%,
+      rgba(0, 0, 255, 0.4) 10%,
+      rgba(255, 255, 255, 0) 60%
+    );
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .about-alexia-image {
+    height: 440px;
+    width: auto;
+  }
+
+  .about-text-primary {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  .blue-line {
+    display: block;
+    height: 12px;
+    background-color: var(--primary-color);
+    width: 100%;
+    margin-top: -10px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .about-bottom-section {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin: 50px 20px;
+  }
+
+  .about-text-secondary {
+    width: 60%;
+    margin: 20px 10px;
+  }
+
+  .quote-section {
+    width: 40%;
+  }
+
+  .quote-text {
+    font-size: 1.8rem;
+  }
+
+  .quote-mark {
+    width: 90px;
+    height: 90px;
+  }
+
+  .quote-mark-left {
+    top: -15px;
+    left: -45px;
+  }
+
+  .quote-mark-right {
+    bottom: 0;
+    right: 20px;
+  }
+}

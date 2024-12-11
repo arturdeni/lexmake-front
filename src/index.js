@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import ProjectDetail from "./components/Projects/ProjectDetail/ProjectDetail";
+import About from "./components/About/About";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/utils/ScrollToTop";
@@ -21,6 +22,7 @@ const App = () => (
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:urlTitle" element={<ProjectDetail />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </main>
       <Footer /> {/* Footer común */}

@@ -28,12 +28,14 @@ const ProjectDetail = () => {
       <div className="project-detail__description">
         <h3>Descripción</h3>
         <p>{project.description}</p>
-        <span style={{ fontWeight: "bold" }}>¿Qué se hizo?</span>
-        <ul>
-          {project.details?.map((detail, index) => (
-            <li key={index}>{detail}</li>
-          ))}
-        </ul>
+        <div className="project-detail__tags">
+          <span style={{ fontWeight: "bold" }}>¿Qué se hizo?</span>
+          <ul>
+            {project.details?.map((detail, index) => (
+              <li key={index}>{detail}</li>
+            ))}
+          </ul>
+        </div>
       </div>
       <div className="project-detail__images">
         {project.images?.map((image, index) => (
