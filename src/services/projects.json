@@ -4,14 +4,12 @@
       "id": 1,
       "url-title": "weye",
       "title": "Weye",
-      "description": "Un proyecto de coworking que empezó desde cero, con cada detalle cuidadosamente planificado para fomentar la colaboración, la creatividad y la comunidad. Este proyecto no solo involucra el diseño físico del espacio, sino también la creación de una identidad de marca y la presencia en línea que refleja los valores y la visión del coworking",
+      "description": "WEYE es una marca especializada en diseño y desarrollo de productos innovadores. El proyecto incluyó la creación de su página web, un packaging atractivo para sus productos, la gestión de redes sociales y la producción de renders para presentar visualmente sus conceptos de forma realista y profesional.",
       "details": [
-        "Diseño de interiores",
-        "Diseño de marca",
-        "Diseño web",
-        "Fotografía de producto",
-        "Fotografía de interiores",
-        "Fotografía de arquitectura"
+        "Diseño y desarrollo de la página web",
+        "Creación de packaging",
+        "Gestión de redes sociales",
+        "Producción de renders"
       ],
       "year": 2020,
       "categories": ["Web", "RRSS"],
@@ -47,15 +45,11 @@
     {
       "id": 3,
       "url-title": "regatta",
-      "title": "Regatta",
-      "description": "Descripción del proyecto 3",
+      "title": "Regatta Fund Fit",
+      "description": "Regata Fund Fit es un fondo de inversión que busca profesionalismo y exclusividad. Se diseñó su logotipo, se definió el naming y se creó un Brand Book que garantiza coherencia en todas sus comunicaciones.",
       "details": [
-        "Diseño de interiores",
-        "Diseño de marca",
-        "Diseño web",
-        "Fotografía de producto",
-        "Fotografía de interiores",
-        "Fotografía de arquitectura"
+        "Creación de la imagen de marca",
+        "Desarrollo del logotipo, naming y Brand Book"
       ],
       "year": 2022,
       "categories": ["Diseño gráfico"],
@@ -87,14 +81,11 @@
       "id": 5,
       "url-title": "barcino",
       "title": "Club Barcino",
-      "description": "Club de tenis y pádel en Barcelona",
+      "description": "El Club Tenis Barcino es un referente en el ámbito deportivo y social en Barcelona. Se gestionan sus redes sociales para aumentar la participación y visibilidad del club, se diseñan posters y trípticos para eventos y se capturan los momentos más importantes a través de fotografía y video con montajes dinámicos.",
       "details": [
-        "Diseño de interiores",
-        "Diseño de marca",
-        "Diseño web",
-        "Fotografía de producto",
-        "Fotografía de interiores",
-        "Fotografía de arquitectura"
+        "Gestión de redes sociales",
+        "Diseño de posters y trípticos",
+        "Fotografía y videos con montaje"
       ],
       "year": 2023,
       "categories": ["Web", "RRSS"],
@@ -109,15 +100,8 @@
       "id": 6,
       "url-title": "pi-light",
       "title": "Pi Light",
-      "description": "Tienda de iluminación en Barcelona",
-      "details": [
-        "Diseño de interiores",
-        "Diseño de marca",
-        "Diseño web",
-        "Fotografía de producto",
-        "Fotografía de interiores",
-        "Fotografía de arquitectura"
-      ],
+      "description": "Pilight es un proyecto centrado en la innovación digital. Se desarrolló una página web totalmente personalizada mediante WordPress, con un diseño funcional y moderno que facilita la experiencia de usuario.",
+      "details": ["Creación de la web con WordPress"],
       "year": 2023,
       "categories": ["Web", "RRSS"],
       "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/pilight_clkfcr.png",
@@ -131,15 +115,8 @@
       "id": 7,
       "url-title": "marc-esteba",
       "title": "Marc Esteba",
-      "description": "Restaurante en Barcelona",
-      "details": [
-        "Diseño de interiores",
-        "Diseño de marca",
-        "Diseño web",
-        "Fotografía de producto",
-        "Fotografía de interiores",
-        "Fotografía de arquitectura"
-      ],
+      "description": "Marc Estaba es un proyecto personal que necesitaba una identidad visual profesional. Se creó su logotipo en colaboración con Ayonow, adaptando el diseño a las necesidades y estilo del cliente.",
+      "details": ["Página web con Strikingly", "Diseño del logotipo"],
       "year": 2023,
       "categories": ["Web", "RRSS"],
       "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/marc-esteba_xs3nha.png",
@@ -153,16 +130,168 @@
       "id": 8,
       "url-title": "cuinats-olivella",
       "title": "Cuinats Olivella",
-      "description": "Restaurante en Barcelona",
+      "description": "Cuinats Olivella es una empresa dedicada a la preparación de platos cocinados de alta calidad. Se desarrolló su página web y se diseñaron materiales gráficos como el tríptico y dosier para presentar su oferta gastronómica.",
+      "details": ["Creación de la página web", "Diseño de tríptico y dosier"],
+      "year": 2023,
+      "categories": ["Web", "RRSS"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+      ]
+    },
+    {
+      "id": 9,
+      "url-title": "garrotxa-tech",
+      "title": "Garrotxa Tech",
+      "description": "Garrotxa Tech es una asociación que fomenta el emprendimiento tecnológico en la región de la Garrotxa. Para ellos, se desarrolló toda la imagen corporativa, desde el logo y el branding hasta el diseño web. Además, se impulsó un proyecto de emprendimiento dentro de la asociación con identidad propia y se creó contenido estratégico para redes sociales.",
       "details": [
-        "Diseño de interiores",
-        "Diseño de marca",
-        "Diseño web",
-        "Fotografía de producto",
-        "Fotografía de interiores",
-        "Fotografía de arquitectura"
+        "Creación de la asociación",
+        "Desarrollo de la imagen corporativa: logo y branding",
+        "Diseño de la página web",
+        "Diseño de redes sociales"
       ],
       "year": 2023,
+      "categories": ["Web", "RRSS"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+      ]
+    },
+    {
+      "id": 10,
+      "url-title": "gesiuris",
+      "title": "Gesiuris",
+      "description": "Gesiuris es una empresa dedicada a la gestión de fondos de inversión. Se colaboró en el rediseño de su página web, la creación de un Brand Book que define su identidad visual y el desarrollo de contenido en su blog. Actualmente, se gestionan sus redes sociales y se elaboran fichas y presentaciones internas.",
+      "details": [
+        "Rediseño de la página web",
+        "Creación de Brand Book",
+        "Desarrollo del blog",
+        "Gestión de redes sociales",
+        "Elaboración de fichas y presentaciones internas"
+      ],
+      "year": 2021,
+      "categories": ["Web", "RRSS"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+      ]
+    },
+    {
+      "id": 11,
+      "url-title": "puig",
+      "title": "Puig",
+      "description": "Puig, una empresa líder en moda y fragancias, organizó un evento de team building llamado Aquathlon. Se desarrolló una imagen visual única, con el diseño de logo, mockups de merchandising y fotografías del evento para capturar los mejores momentos.",
+      "details": [
+        "Diseño de logo y mockups",
+        "Diseño de merchandising impreso",
+        "Fotografía del evento"
+      ],
+      "year": 2021,
+      "categories": ["Web", "RRSS"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+      ]
+    },
+    {
+      "id": 12,
+      "url-title": "gre",
+      "title": "GRE",
+      "description": "Gesiuris Real Estate es una división enfocada en la gestión inmobiliaria. Se desarrolló una nueva página web, un logotipo renovado, sesiones de fotografía profesional y se gestionan sus redes sociales con contenido visual de alta calidad.",
+      "details": [
+        "Diseño de la página web",
+        "Creación de logotipo",
+        "Fotografía",
+        "Gestión de redes sociales"
+      ],
+      "year": 2021,
+      "categories": ["Web", "RRSS"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+      ]
+    },
+    {
+      "id": 13,
+      "url-title": "misoil",
+      "title": "Misoil",
+      "description": "Creación de una página web para una nueva salsa creada cn aceite y miso. En este proyecto se queria transmitir mucho la cultura que transmite esta salsa.",
+      "details": [
+        "Página web con strikingly",
+        "Ilustraciones",
+        "Mockups de los productos",
+        "Planning para redes sociales"
+      ],
+      "year": 2021,
+      "categories": ["Web", "RRSS"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+      ]
+    },
+    {
+      "id": 14,
+      "url-title": "golden-visa",
+      "title": "Golden Visa",
+      "description": "Golden Visa es un proyecto enfocado en la obtención de residencias a través de inversiones. Se desarrolló su logotipo, mockups de páginas web y se implementaron campañas digitales junto a Ayonow, ofreciendo soluciones integrales de diseño y marketing.",
+      "details": [
+        "Diseño de logotipo",
+        "Diseño de mockups de páginas web",
+        "Campañas digitales"
+      ],
+      "year": 2021,
+      "categories": ["Web", "RRSS"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+      ]
+    },
+    {
+      "id": 15,
+      "url-title": "ayonow",
+      "title": "Ayonow",
+      "description": "Ayonow es una agencia de marketing digital y branding. Se realizó un rediseño completo de su página web, modernizándola para reflejar su profesionalismo y facilitar la interacción con sus clientes.",
+      "details": [
+        "Rediseño de la página web",
+        "Creación de logotipo",
+        "Fotografía",
+        "Gestión de redes sociales"
+      ],
+      "year": 2021,
+      "categories": ["Web", "RRSS"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+      ]
+    },
+    {
+      "id": 16,
+      "url-title": "veronica-lopera",
+      "title": "Verónica Lopera",
+      "description": "Veronicalopera es un proyecto de una nueva inmobiliaria ubicada en Cunit. Se desarrolló su nueva página web, se creó una imagen renovada con un nuevo naming y se implementó un iframe funcional para mejorar la experiencia del usuario.",
+      "details": [
+        "Diseño de la página web",
+        "Creación de logotipo",
+        "Fotografía",
+        "Gestión de redes sociales"
+      ],
+      "year": 2021,
       "categories": ["Web", "RRSS"],
       "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
       "images": [
