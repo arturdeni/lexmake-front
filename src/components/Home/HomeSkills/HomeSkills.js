@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./HomeSkills.css";
 
 import photoshopImage from "../../../assets/icons/applications/photoshop-icon.png";
@@ -11,39 +11,63 @@ import figmaImage from "../../../assets/icons/applications/figma-icon.png";
 import wordpressImage from "../../../assets/icons/applications/wordpress-icon.png";
 import strikinglyImage from "../../../assets/icons/applications/strikingly-icon.png";
 
+const skills = [
+  { name: "Photoshop", image: photoshopImage },
+  { name: "Illustrator", image: illustratorImage },
+  { name: "After Effects", image: afterEffectsImage },
+  { name: "Premiere", image: premiereImage },
+  { name: "Dimension", image: dnImage },
+  { name: "InDesign", image: idImage },
+  { name: "Figma", image: figmaImage },
+  { name: "Wordpress", image: wordpressImage },
+  { name: "Strikingly", image: strikinglyImage },
+];
+
 const HomeSkills = () => {
+  const [activeSkill, setActiveSkill] = useState(null);
+  const [rotatingSkill, setRotatingSkill] = useState(null);
+
+  const handleClick = (index) => {
+    setRotatingSkill(index);
+
+    setTimeout(() => {
+      setRotatingSkill(null);
+    }, 500);
+
+    if (activeSkill === index) {
+      setActiveSkill(null);
+    } else {
+      setActiveSkill(index);
+    }
+  };
+
   return (
     <section className="home-skills">
       <h1>My skills</h1>
-      <p>Estas son algunas de las herramientas y aplicaciones que domino.</p>
+      <p>
+        Estos son algunos de los programas que uso para hacer posible los
+        proyectos.
+      </p>
       <div className="home-skills__items-container">
-        <div className="home-skills__item">
-          <img src={photoshopImage} alt="Photoshop" />
-        </div>
-        <div className="home-skills__item">
-          <img src={illustratorImage} alt="Illustrator" />
-        </div>
-        <div className="home-skills__item">
-          <img src={afterEffectsImage} alt="After Effects" />
-        </div>
-        <div className="home-skills__item">
-          <img src={premiereImage} alt="Premiere" />
-        </div>
-        <div className="home-skills__item">
-          <img src={dnImage} alt="Dimension" />
-        </div>
-        <div className="home-skills__item">
-          <img src={idImage} alt="InDesign" />
-        </div>
-        <div className="home-skills__item">
-          <img src={figmaImage} alt="Figma" />
-        </div>
-        <div className="home-skills__item">
-          <img src={wordpressImage} alt="Wordpress" />
-        </div>
-        <div className="home-skills__item">
-          <img src={strikinglyImage} alt="Strikingly" />
-        </div>
+        {skills.map((skill, index) => (
+          <div
+            key={skill.name}
+            className={`home-skills__item ${
+              activeSkill === index ? "active" : ""
+            } ${rotatingSkill === index ? "rotating" : ""}`}
+            onClick={() => handleClick(index)}
+          >
+            <img
+              src={skill.image}
+              alt={skill.name}
+              style={{
+                transform:
+                  rotatingSkill === index ? "rotate(360deg)" : "rotate(0deg)",
+              }}
+            />
+            <span className="home-skills__name">{skill.name}</span>
+          </div>
+        ))}
       </div>
     </section>
   );

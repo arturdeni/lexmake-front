@@ -15,19 +15,47 @@
   padding: 0 20px;
   border-bottom: 1px solid #000;
   transition: padding 0.7s ease, margin 0.7s ease;
+  cursor: pointer;
+}
+
+.home-services__item::after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  top: 35%;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+  transition: transform 0.3s ease;
+}
+
+.home-services__item.active::after {
+  opacity: 0;
+}
+
+.home-services__title {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.home-services__number {
+  color: #0000ff;
+  font-size: 1em;
+  margin-top: 0.3em;
 }
 
 .home-services__item h3 {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 400;
   margin: 0;
+  line-height: 1;
 }
 
 .home-services__description {
   color: #000;
   opacity: 0;
   max-height: 0;
-  max-width: 500px;
+  max-width: 570px;
   overflow: hidden;
   transition: opacity 0.7s ease, max-height 0.7s ease;
   margin-top: 5px;
@@ -36,7 +64,12 @@
 
 .home-services__item:hover .home-services__description {
   opacity: 1;
-  max-height: 100px;
+  max-height: 170px;
+}
+
+.home-services__item.active .home-services__description {
+  opacity: 1;
+  max-height: 170px;
 }
 
 .home-services__item-image {
@@ -52,22 +85,24 @@
     padding: 10px;
   }
 
-  /* Inicialmente, la imagen es invisible, pequeña y rotada */
+  .home-services__item::after {
+    display: none;
+  }
+
   .home-services__item-image {
     display: block;
     position: absolute;
     top: -120px;
     left: 75%;
-    width: 9em;
+    width: 11em;
     z-index: 2;
     opacity: 0;
-    transform: scale(0.8); /* Imagen pequeña y rotada al inicio */
+    transform: scale(0.8);
     transition: opacity 0.3s, transform 0.4s cubic-bezier(0.42, 0, 0.58, 1);
   }
 
-  /* Al hacer hover, la imagen crece, rota y se vuelve visible */
   .home-services__item:hover .home-services__item-image {
     opacity: 1;
-    transform: scale(1); /* Imagen a tamaño normal sin rotación */
+    transform: scale(1);
   }
 }
