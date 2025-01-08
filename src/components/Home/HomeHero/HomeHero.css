@@ -6,10 +6,21 @@
 
 .home-hero__logo {
   margin: auto;
+  position: relative;
+  width: 100%;
+  max-width: 20em;
+  padding-right: 30px; /* Compensa el espacio del cohete */
 }
 
-.home-hero__logo img {
-  width: 20em;
+.home-hero__text {
+  width: 100%;
+}
+
+.home-hero__rocket {
+  position: absolute;
+  width: 3em;
+  top: 0;
+  right: -30px;
 }
 
 .home-hero__description {
@@ -20,9 +31,22 @@
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .home-hero__logo {
+    padding-right: 0;
+    transform: translateX(
+      -15px
+    ); /* Mueve todo el conjunto hacia la izquierda para centrarlo */
+  }
+}
+
 @media (min-width: 768px) {
-  .home-hero__logo img {
-    width: 35em;
+  .home-hero__logo {
+    max-width: 35em;
+  }
+
+  .home-hero__rocket {
+    width: 4em;
   }
 
   .home-hero__description {
