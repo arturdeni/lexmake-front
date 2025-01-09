@@ -1,16 +1,36 @@
 // About.js
-import React from "react";
-import "./About.css";
+import React, { useEffect } from "react";
+import gsap from "gsap";
 import quotationMarks from "../../assets/icons/quotation-marks.svg";
 import HomeSkills from "../Home/HomeSkills/HomeSkills";
 
+import "./About.css";
+
 const About = () => {
+  useEffect(() => {
+    const tl = gsap.timeline();
+
+    tl.fromTo(
+      ".blue-line",
+      { width: "0%" },
+      { width: "100%", duration: 1, delay: 0.6, ease: "power1.inOut" },
+      "-=0.5"
+    );
+
+    tl.fromTo(
+      ".about-image-background",
+      { scale: 0, opacity: 0 },
+      { scale: 1, opacity: 1, duration: 1, ease: "power2.out" }
+    );
+  }, []);
+
   return (
     <div className="about-container">
       <h1 className="about-title">ALEXIA VILADOT</h1>
 
       <div className="about-top-section">
         <div className="about-image-container">
+          <div className="about-image-background"></div>
           <img
             className="about-alexia-image"
             src="https://res.cloudinary.com/dgeaapj3n/image/upload/v1730192509/IMG_1593_2_ror5pw.png"

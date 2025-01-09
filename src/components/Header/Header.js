@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../../assets/icons/logo";
 import InstagramIcon from "../../assets/icons/rrss/instagram-icon";
-import TiktokIcon from "../../assets/icons/rrss/tiktok-icon";
 import LinkedInIcon from "../../assets/icons/rrss/linkedin-icon";
 import WhatsAppIcon from "../../assets/icons/rrss/whatsapp-icon";
 import MenuButton from "./MenuButton/MenuButton";
