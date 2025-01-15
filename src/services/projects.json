@@ -12,12 +12,13 @@
         "Producción de renders"
       ],
       "year": 2020,
-      "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/weye_hc3ukw.png",
+      "categories": ["Web", "Packaging", "RRSS", "Renders"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938924/WEYEweye-project_sivo5q.jpg",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938940/weye_agwyzo.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525521/Weyedetails2_rkuhpq.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/weyedetails-1_jmski8.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/weyedetails_bo5n2s.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938927/Weyedetails2_kwgmyx.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938925/weyedetails-1_yu4pnn.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938926/weyedetails_zvnkam.png"
       ]
     },
     {
@@ -34,12 +35,13 @@
         "Fotografía de arquitectura"
       ],
       "year": 2021,
-      "categories": ["Branding", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/estiber_mbj4nj.png",
+      "categories": ["Logo", "Ilustraciones", "RRSS", "Camisetas"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938916/ESTIBERestiber-project_yoavni.jpg",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938899/estiber_c4zeua.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525519/estiberdetails_pfnxyv.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/estiberdetails-2_fowoow.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/estiberdetails-1_hp4eaa.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938901/estiberdetails_nguv8m.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938900/estiberdetails-2_arrhdz.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938900/estiberdetails-1_kv65wm.png"
       ]
     },
     {
@@ -51,10 +53,15 @@
         "Creación de la imagen de marca",
         "Desarrollo del logotipo, naming y Brand Book"
       ],
-      "year": 2022,
-      "categories": ["Diseño gráfico"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525519/regatta_bstymy.png",
-      "images": ["ruta/imagen8.jpg", "ruta/imagen9.jpg"]
+      "year": 2023,
+      "categories": ["Branding", "Naming"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938922/regattaregatta-project_fk4sdz.jpg",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938951/regatta_d2ni48.png",
+      "images": [
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938938/2REGATA_dhxelc.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938943/1REGATA_o1een2.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938933/3REGATA_smnsni.png"
+      ]
     },
     {
       "id": 4,
@@ -68,13 +75,14 @@
         "Redes Sociales",
         "Logo e imagen coorporativa"
       ],
-      "year": 2020,
-      "categories": ["Web", "RRSS", "Ilustración", "Logo", "Naming"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth-3_cgzfww.png",
+      "year": 2023,
+      "categories": ["Web", "RRSS", "Ilustraciones", "Logo", "Naming"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938923/SMOOTHsmooth-project_g90wdn.jpg",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938953/smooth_yrknxg.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938944/smooth-3_kaoxho.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938931/Smooth_2-1_uiekca.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938940/Smooth_2_yorgxz.png"
       ]
     },
     {
@@ -87,13 +95,14 @@
         "Diseño de posters y trípticos",
         "Fotografía y videos con montaje"
       ],
-      "year": 2023,
-      "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/barcino_lt4pjs.png",
+      "year": 2024,
+      "categories": ["RRSS", "Diseño Gráfico", "Fotografía", "Video"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938915/BARCINO_mxhmju.png",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938897/barcino_r5grjf.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938897/barcino2_elp61c.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938897/barcino3_w7qovg.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938898/barcino4_vp3cya.png"
       ]
     },
     {
@@ -102,13 +111,14 @@
       "title": "Pi Light",
       "description": "Pilight es un proyecto centrado en la innovación digital. Se desarrolló una página web totalmente personalizada mediante WordPress, con un diseño funcional y moderno que facilita la experiencia de usuario.",
       "details": ["Creación de la web con WordPress"],
-      "year": 2023,
-      "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/pilight_clkfcr.png",
+      "year": 2024,
+      "categories": ["Web"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938921/PILIGHT_h2xjat.png",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938912/2PILIGHT_utzf49.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938912/1PILIGHT_yapaf0.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938914/4PILIGHT_xu8xka.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938913/3PILIGHT_rkb4oe.png"
       ]
     },
     {
@@ -118,12 +128,13 @@
       "description": "Marc Estaba es un proyecto personal que necesitaba una identidad visual profesional. Se creó su logotipo en colaboración con Ayonow, adaptando el diseño a las necesidades y estilo del cliente.",
       "details": ["Página web con Strikingly", "Diseño del logotipo"],
       "year": 2023,
-      "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/marc-esteba_xs3nha.png",
+      "categories": ["Logo", "Web"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938919/MARC_u7fqbo.png",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938904/marc-esteba_tk0apk.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938905/marcesteba4_q1jgg4.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938902/Group_3_vulb1h.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938904/marcesteba2_r5hqgo.png"
       ]
     },
     {
@@ -132,13 +143,14 @@
       "title": "Cuinats Olivella",
       "description": "Cuinats Olivella es una empresa dedicada a la preparación de platos cocinados de alta calidad. Se desarrolló su página web y se diseñaron materiales gráficos como el tríptico y dosier para presentar su oferta gastronómica.",
       "details": ["Creación de la página web", "Diseño de tríptico y dosier"],
-      "year": 2023,
-      "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "year": 2020,
+      "categories": ["Web", "Diseño Gráfico"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938920/OLIVELLA_ge9x7b.png",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938909/olivella_gdztdj.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938911/olivella4_itivjv.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938910/olivella3_ucib6q.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938909/olivella2_tyasmo.png"
       ]
     },
     {
@@ -153,12 +165,13 @@
         "Diseño de redes sociales"
       ],
       "year": 2023,
-      "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "categories": ["Web", "RRSS", "Branding"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938916/garrotxagarrotxa-project_jp7awb.jpg",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938928/garrotxa_j42ogw.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938932/garrotxa2_efbkok.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938942/garrotxa3_kbirqm.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938953/garrotxa4_yccol9.png"
       ]
     },
     {
@@ -174,12 +187,13 @@
         "Elaboración de fichas y presentaciones internas"
       ],
       "year": 2021,
-      "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "categories": ["Web", "RRSS", "Branding", "Blog"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938917/GESIURIS_j9eg0x.png",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938946/gesiuris_unljyl.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938930/gesiuris4_uktfjl.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938935/gesiuris3_nmjcw5.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938947/gesiuris2_tvfev5.png"
       ]
     },
     {
@@ -194,11 +208,12 @@
       ],
       "year": 2021,
       "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938921/PUIG_x6los4.png",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938947/1PUIG_roblf4.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938929/4PUIG_jitvgq.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938935/2PUIG_ucc7ch.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938945/3PUIG_hc4ywn.png"
       ]
     },
     {
@@ -212,13 +227,14 @@
         "Fotografía",
         "Gestión de redes sociales"
       ],
-      "year": 2021,
-      "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "year": 2023,
+      "categories": ["Web", "RRSS", "Branding", "Fotografía"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938918/GRE_asnvqw.png",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938939/4GRE_zerytm.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938952/2GRE_yzvhmr.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938937/3GRE_ouqn75.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938945/1GRE_y0nrhl.png"
       ]
     },
     {
@@ -232,13 +248,14 @@
         "Mockups de los productos",
         "Planning para redes sociales"
       ],
-      "year": 2021,
-      "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "year": 2023,
+      "categories": ["Web", "RRSS", "Ilustraciones"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938920/misoil_yycuil.png",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938908/misoil_rdwpbf.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938906/misoil-1_sjagqb.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938908/misoil-3_uq2bdf.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938907/misoil-2_mwszky.png"
       ]
     },
     {
@@ -249,15 +266,17 @@
       "details": [
         "Diseño de logotipo",
         "Diseño de mockups de páginas web",
-        "Campañas digitales"
+        "Creación del correo electrónico",
+        "Ads gestionados junto a Ayonow"
       ],
-      "year": 2021,
-      "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "year": 2024,
+      "categories": ["Web", "Branding"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938918/GOLDENVISA_sthugy.png",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938936/3Golden_Visa_wo8yso.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938936/1Golden_Visa_lf7ahq.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938928/2Golden_Visa_scxj49.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938948/4Golden_Visa_u5cnc8.png"
       ]
     },
     {
@@ -265,39 +284,36 @@
       "url-title": "ayonow",
       "title": "Ayonow",
       "description": "Ayonow es una agencia de marketing digital y branding. Se realizó un rediseño completo de su página web, modernizándola para reflejar su profesionalismo y facilitar la interacción con sus clientes.",
-      "details": [
-        "Rediseño de la página web",
-        "Creación de logotipo",
-        "Fotografía",
-        "Gestión de redes sociales"
-      ],
-      "year": 2021,
-      "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "details": ["Rediseño de la página web"],
+      "year": 2024,
+      "categories": ["Web"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938914/AYONOW_owehqt.png",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736940896/aynow_uppnn7.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736940894/aynow2_tcbxvt.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736940892/aynow3_vjjkth.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736940893/aynow4_pohoox.png"
       ]
     },
     {
       "id": 16,
       "url-title": "veronica-lopera",
       "title": "Verónica Lopera",
-      "description": "Veronicalopera es un proyecto de una nueva inmobiliaria ubicada en Cunit. Se desarrolló su nueva página web, se creó una imagen renovada con un nuevo naming y se implementó un iframe funcional para mejorar la experiencia del usuario.",
+      "description": "VeronicaLopera es un proyecto de una nueva inmobiliaria ubicada en Cunit. Se desarrolló su nueva página web, se creó una imagen renovada con un nuevo naming y se implementó un iframe funcional para mejorar la experiencia del usuario.",
       "details": [
         "Diseño de la página web",
         "Creación de logotipo",
         "Fotografía",
         "Gestión de redes sociales"
       ],
-      "year": 2021,
-      "categories": ["Web", "RRSS"],
-      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525518/olivella_x97kgn.png",
+      "year": 2024,
+      "categories": ["Web", "Branding", "Naming"],
+      "frontImage": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938923/VERONICALOPERA_sx7wyo.png",
+      "frontImageProjectDetails": "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938951/4veronica_zrqgw9.png",
       "images": [
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/smooth_ils8ac.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2-1_yiqmma.png",
-        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1725525520/Smooth_2_fpezta.png"
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938943/1veronica_vrbf0j.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938933/3veronica_hbosna.png",
+        "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938950/2veronica_coe8t4.png"
       ]
     }
   ]

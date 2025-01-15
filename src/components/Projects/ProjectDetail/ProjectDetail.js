@@ -21,7 +21,7 @@ const ProjectDetail = () => {
 
         <img
           className="project-detail__front-image"
-          src={project.frontImage}
+          src={project.frontImageProjectDetails}
           alt={project.title}
         />
 

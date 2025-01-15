@@ -56,6 +56,13 @@
   animation: slide-in-blurred-top 1.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s both;
 }
 
+.truncated-categories {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 225px;
+}
+
 @keyframes slide-in-blurred-top {
   0% {
     transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);

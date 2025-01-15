@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 
+import TruncatedCategories from "./TruncatedCategories";
 import HaveAnIdea from "../shared/HaveAnIdea/HaveAnIdea";
 import projectsData from "../../services/projects.json";
 import "./Projects.css";
@@ -57,14 +58,7 @@ const Projects = () => {
               <div className="projects-item-description">
                 <h3>{project.title}</h3>
                 <div>
-                  {project.categories.map((category) => (
-                    <span
-                      key={category}
-                      className="projects-item-description__category"
-                    >
-                      {category}
-                    </span>
-                  ))}
+                  <TruncatedCategories categories={project.categories} />
                 </div>
               </div>
             </Link>

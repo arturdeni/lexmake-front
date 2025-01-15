@@ -6,6 +6,9 @@ import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import ProjectDetail from "./components/Projects/ProjectDetail/ProjectDetail";
 import About from "./components/About/About";
+import Privacy from "./components/Privacy/Privacy";
+import Terms from "./components/Terms/Terms";
+import NotFound from "./components/shared/NotFound/NotFound";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/utils/ScrollToTop";
@@ -23,6 +26,9 @@ const App = () => (
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:urlTitle" element={<ProjectDetail />} />
           <Route path="/about" element={<About />} />
+          <Route path="/privacy-policy" element={<Privacy />} />
+          <Route path="/terms-of-service" element={<Terms />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer /> {/* Footer común */}
