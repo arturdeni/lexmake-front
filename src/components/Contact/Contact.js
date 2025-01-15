@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com"; // Importa emailjs
-import { Card2 } from "./Card2/Card2";
 import InstagramIcon from "../../assets/icons/rrss/instagram-icon";
 import TiktokIcon from "../../assets/icons/rrss/tiktok-icon";
 import LinkedInIcon from "../../assets/icons/rrss/linkedin-icon";
@@ -166,17 +165,6 @@ const Contact = () => {
         </button>
       </form>
 
-      <Card2
-        image={
-          "https://res.cloudinary.com/dgeaapj3n/image/upload/v1730192509/IMG_1593_2_ror5pw.png"
-        }
-        title="Alexia Viladot"
-        subtitle="Graphic Designer"
-        description="Empowering users through captivating interfaces, turning ideas into pixel-perfect realities."
-        onProfile={() => {}} // No hacer nada
-        onFollow={() => {}} // No hacer nada
-      />
-
       <div className="contact__info">
         <p>alexiaviladot@lexmake.com</p>
         <div className="contact__social">
@@ -210,10 +198,12 @@ const Contact = () => {
         <iframe
           title="Lexmake"
           className="contact__map-iframe"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.453241376211!2d2.163153915738888!3d41.39094697926429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498b0f7f1c4d9%3A0x1b0f1d7f5e4b0d3e!2sRambla%20de%20Catalunya%2C%2038%2C%2008007%20Barcelona!5e0!3m2!1ses!2ses!4v1631290435248!5m2!1ses!2ses"
-          height="450"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.453241376211!2d2.163153915738888!3d41.39094697926429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498b0f7f1c4d9%3A0x1b0f1d7f5e4b0d3e!2sRambla%20de%20Catalunya%2C%2038%2C%2008007%20Barcelona!5e0!3m2!1ses!2ses!4v1631290435248!5m2!1ses!2ses&maptype=roadmap&format=png&zoom=16&style=element:geometry%7Ccolor:0xf5f5f5&style=element:labels%7Cvisibility:off&style=feature:administrative%7Celement:geometry%7Cvisibility:off&style=feature:poi%7Cvisibility:off&style=feature:road%7Celement:labels.icon%7Cvisibility:off&style=feature:transit%7Cvisibility:off"
+          frameBorder="0"
           allowFullScreen=""
           loading="lazy"
+          aria-hidden="false"
+          height={450}
         ></iframe>
       </div>
     </div>

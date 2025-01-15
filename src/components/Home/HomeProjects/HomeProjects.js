@@ -7,12 +7,18 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import "./HomeProjects.css";
 
-import estiberImage from "../../../assets/images/projects/estiber-project.jpg";
-import misoilImage from "../../../assets/images/projects/misoil-project.jpg";
-import weyeImage from "../../../assets/images/projects/weye-project.jpg";
-import regattaImage from "../../../assets/images/projects/regatta-project.jpg";
-import garrotxaImage from "../../../assets/images/projects/garrotxa-project.jpg";
-import olivellaImage from "../../../assets/images/projects/olivella-project.jpg";
+const IMAGES = {
+  estiber:
+    "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736937598/ESTIBERestiber-project_ynavqe.jpg",
+  regatta:
+    "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736937599/regattaregatta-project_f2fboy.jpg",
+  weye: "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736937602/WEYEweye-project_tdzvjm.jpg",
+  garrotxa:
+    "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736937599/garrotxagarrotxa-project_c5yjhk.jpg",
+  gre: "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736938777/GRE_kzyss2.png",
+  veronicaLopera:
+    "https://res.cloudinary.com/dgeaapj3n/image/upload/v1736937602/VERONICALOPERA_p0bujf.png",
+};
 
 const HomeProjects = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -67,43 +73,34 @@ const HomeProjects = () => {
       <div className="home-projects__container" ref={projects}>
         <div className="home-projects__item">
           <Link to={"/projects/estiber"}>
-            <img src={estiberImage} alt="Estiber Project" />
+            <img src={IMAGES.estiber} alt="Estiber Project" />
             <div className="home-projects__item-description">
               <h3>Estiber</h3>
-              <p>Logo, brand y web</p>
-            </div>
-          </Link>
-        </div>
-        <div className="home-projects__item">
-          <Link to={"/projects/misoil"}>
-            <img src={misoilImage} alt="Misoil Project" />
-            <div className="home-projects__item-description">
-              <h3>Misoil</h3>
-              <p>Mockups y RRSS</p>
-            </div>
-          </Link>
-        </div>
-        <div className="home-projects__item">
-          <Link to={"/projects/weye"}>
-            <img src={weyeImage} alt="Weye Project" />
-            <div className="home-projects__item-description">
-              <h3>Weye</h3>
-              <p>Packaging y Brand</p>
+              <p>Logo, Ilustraciones, RRSS y Camisetas</p>
             </div>
           </Link>
         </div>
         <div className="home-projects__item">
           <Link to={"/projects/regatta"}>
-            <img src={regattaImage} alt="Regatta Project" />
+            <img src={IMAGES.regatta} alt="Regatta Project" />
             <div className="home-projects__item-description">
               <h3>Regatta Fund Fi</h3>
-              <p>Brand y Web</p>
+              <p>Brand y Naming</p>
+            </div>
+          </Link>
+        </div>
+        <div className="home-projects__item">
+          <Link to={"/projects/weye"}>
+            <img src={IMAGES.weye} alt="Weye Project" />
+            <div className="home-projects__item-description">
+              <h3>Weye</h3>
+              <p>Web, Packaging, RRSS y Renders</p>
             </div>
           </Link>
         </div>
         <div className="home-projects__item">
           <Link to={"/projects/garrotxa"}>
-            <img src={garrotxaImage} alt="Garrotxa Project" />
+            <img src={IMAGES.garrotxa} alt="Garrotxa Project" />
             <div className="home-projects__item-description">
               <h3>Garrotxa Startup</h3>
               <p>Brand, Web y RRSS</p>
@@ -111,11 +108,20 @@ const HomeProjects = () => {
           </Link>
         </div>
         <div className="home-projects__item">
-          <Link to={"/projects/olivella"}>
-            <img src={olivellaImage} alt="Olivella Project" />
+          <Link to={"/projects/gre"}>
+            <img src={IMAGES.gre} alt="GRE Project" />
             <div className="home-projects__item-description">
-              <h3>Cuinats Olivella</h3>
-              <p>Brand</p>
+              <h3>GRE</h3>
+              <p>Web, Brand, Fotografía y RRSS</p>
+            </div>
+          </Link>
+        </div>
+        <div className="home-projects__item">
+          <Link to={"/projects/veronica-lopera"}>
+            <img src={IMAGES.veronicaLopera} alt="Verónica Lopera Project" />
+            <div className="home-projects__item-description">
+              <h3>Verónica Lopera</h3>
+              <p>Brand, Naming y Web</p>
             </div>
           </Link>
         </div>
