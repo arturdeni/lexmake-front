@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import projectsData from "../../../services/projects.json";
 import HaveAnIdea from "../../shared/HaveAnIdea/HaveAnIdea";
+import ImageSkeleton from "../../shared/ImageSkeleton/ImageSkeleton";
 import "./ProjectDetail.css";
 
 const ProjectDetail = () => {
@@ -19,10 +20,10 @@ const ProjectDetail = () => {
       <div className="project-detail">
         <h1 className="project-detail__title">{project.title}</h1>
 
-        <img
-          className="project-detail__front-image"
+        <ImageSkeleton
           src={project.frontImageProjectDetails}
           alt={project.title}
+          className="project-detail__front-image"
         />
 
         <div className="project-detail__content">
@@ -63,7 +64,7 @@ const ProjectDetail = () => {
 
         <div className="project-detail__images">
           {project.images?.map((image, index) => (
-            <img
+            <ImageSkeleton
               key={index}
               src={image}
               alt={project.title}
@@ -81,10 +82,12 @@ const ProjectDetail = () => {
           className="project-detail__modal"
           onClick={() => setSelectedImage(null)}
         >
-          <img
+          <ImageSkeleton
             src={selectedImage}
             alt={project.title}
-            onClick={(e) => e.stopPropagation()}
+            onClick={() => setSelectedImage(null)}
+            objectFit="contain"
+            className="project-detail__modal-image"
           />
         </div>
       )}

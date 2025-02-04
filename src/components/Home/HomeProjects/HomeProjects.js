@@ -99,7 +99,7 @@ const HomeProjects = () => {
           </Link>
         </div>
         <div className="home-projects__item">
-          <Link to={"/projects/garrotxa"}>
+          <Link to={"/projects/garrotxa-tech"}>
             <img src={IMAGES.garrotxa} alt="Garrotxa Project" />
             <div className="home-projects__item-description">
               <h3>Garrotxa Startup</h3>
