@@ -5,6 +5,7 @@
 .home-projects__item {
   height: 300px;
   position: relative;
+  margin: 20px;
 }
 
 .home-projects__item img {
@@ -61,6 +62,7 @@
   .home-projects__item {
     flex-shrink: 0;
     height: 440px;
+    margin: 0;
     width: 580px;
   }
 }

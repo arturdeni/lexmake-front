@@ -69,11 +69,35 @@
 
 .home-services__item.active .home-services__description {
   opacity: 1;
-  max-height: 170px;
+  max-height: 220px;
 }
 
 .home-services__item-image {
   display: none;
+}
+
+.home-services__description ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.home-services__description li {
+  padding-left: 2em;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.home-services__description li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.7em;
+  height: 1.7em;
+  background-image: url("../../../assets/icons/rocket-simple.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {
@@ -104,5 +128,10 @@
   .home-services__item:hover .home-services__item-image {
     opacity: 1;
     transform: scale(1);
+  }
+
+  .home-services__description li::before {
+    height: 1.9em;
+    width: 1.9em;
   }
 }

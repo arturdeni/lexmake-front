@@ -27,6 +27,11 @@ const HomeSkills = () => {
   const [activeSkill, setActiveSkill] = useState(null);
   const [rotatingSkill, setRotatingSkill] = useState(null);
 
+  const handleMouseLeave = (index) => {
+    setActiveSkill(null); // o el valor inicial que necesites
+    setRotatingSkill(null); // si usas esta variable de estado
+  };
+
   const handleClick = (index) => {
     setRotatingSkill(index);
 
@@ -55,7 +60,8 @@ const HomeSkills = () => {
             className={`home-skills__item ${
               activeSkill === index ? "active" : ""
             } ${rotatingSkill === index ? "rotating" : ""}`}
-            onClick={() => handleClick(index)}
+            onMouseEnter={() => handleClick(index)}
+            onMouseLeave={() => handleMouseLeave(index)}
           >
             <img
               src={skill.image}

@@ -43,9 +43,9 @@ const HomeHero = () => {
       </div>
       <div className="home-hero__description">
         <p ref={descriptionRef}>
-          En Lexmake, tejemos diseño que habla, emociona y transforma. Cada
+          En Lexmake, se hacen diseños que hablan, emocionan y transforman. Cada
           píxel, una historia; tu marca, el protagonista. Descubre cómo lo
-          visual redefine lo posible
+          visual redefine lo posible.
         </p>
       </div>
     </section>

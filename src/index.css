@@ -23,6 +23,18 @@ html,
   font-family: Manrope, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
   color: var(--primary-color);
+  -webkit-overflow-scrolling: touch;
+  /* cursor: url("./assets/icons/RocketIcon.svg"), auto; */
+}
+
+/* Barra de scroll personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0000ff;
+  border-radius: 5px;
 }
 
 .app-container {
@@ -67,6 +79,13 @@ h1 {
   font-weight: 400;
   font-size: 2.5em;
 }
+
+/* Cursor Personalizado */
+/* a,
+button,
+[role="button"] {
+  cursor: url("./assets/icons/rocket-simple.svg"), pointer;
+} */
 
 @media (min-width: 768px) {
   .main-content {

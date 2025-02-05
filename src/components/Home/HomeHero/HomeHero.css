@@ -19,15 +19,14 @@
 .home-hero__rocket {
   position: absolute;
   width: 3em;
-  top: 0;
+  top: -30px;
   right: -30px;
 }
 
 .home-hero__description {
-  font-size: 1.2em;
   margin: auto;
   margin-top: -20px;
-  max-width: 37em;
+  max-width: 21em;
   overflow: hidden;
 }
 
@@ -51,5 +50,7 @@
 
   .home-hero__description {
     margin-top: -15px;
+    max-width: 38em;
+    padding-left: 50px; /* Compensa el espacio del cohete */
   }
 }

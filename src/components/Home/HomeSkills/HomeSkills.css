@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   margin: 30px auto;
-  max-width: 50em;
+  max-width: 22em;
   padding: 20px;
 }
 
@@ -76,6 +76,7 @@
   .home-skills {
     margin: 100px auto;
     padding: 0;
+    max-width: 50em;
   }
 
   .home-skills__items-container {

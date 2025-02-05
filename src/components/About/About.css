@@ -5,6 +5,10 @@
   padding: 20px;
 }
 
+.about-container p {
+  text-align: justify;
+}
+
 .about-title {
   font-size: 2.2rem;
   margin-bottom: 30px;
@@ -25,7 +29,7 @@
 
 .about-image-background {
   position: absolute;
-  width: 130%;
+  width: 119%;
   height: 130%;
   top: -15%;
   left: -15%;
@@ -51,29 +55,31 @@
 
 .about-text-primary {
   color: black;
-  font-family: var(--runway-font);
-  font-size: 1.1rem;
-  line-height: 1.4;
   margin-bottom: 30px;
 }
 
+.about-text-primary p {
+  max-width: 670px;
+}
+
+.about-text-primary .highlight {
+  color: var(--primary-color);
+}
+
 .blue-line {
-  display: none; /* Ocultamos la línea azul en móvil */
+  /* TODO: Revisar este estilo en mobile */
 }
 
 .about-bottom-section {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin: 30px 0;
 }
 
 .about-text-secondary {
   width: 100%;
   margin: 0;
   color: black;
-  font-size: 1.1rem;
-  line-height: 1.4;
 }
 
 .quote-section {
@@ -117,6 +123,10 @@
     padding: 40px 20px;
   }
 
+  .about-container p {
+    text-align: left;
+  }
+
   .about-title {
     font-size: 3rem;
   }
@@ -130,19 +140,9 @@
     z-index: 1;
   }
 
-  .about-image-background {
-    width: 150%;
-    height: 150%;
-  }
-
   .about-alexia-image {
     height: 440px;
     width: auto;
-  }
-
-  .about-text-primary {
-    font-size: 1.2rem;
-    line-height: 1.2;
   }
 
   .blue-line {
@@ -167,6 +167,10 @@
   .about-text-secondary {
     width: 60%;
     margin: 20px 10px;
+  }
+
+  .about-text-secondary p {
+    max-width: 350px;
   }
 
   .quote-section {
