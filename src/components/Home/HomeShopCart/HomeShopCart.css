@@ -107,3 +107,9 @@
 .finish-button:hover {
   background-color: #1d4ed8;
 }
+
+@media (max-width: 768px) {
+  .shop-cart {
+    display: none;
+  }
+}
