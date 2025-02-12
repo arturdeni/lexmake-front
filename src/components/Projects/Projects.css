@@ -14,6 +14,7 @@
 .projects-item {
   position: relative;
   height: 300px;
+  margin: 20px;
 }
 
 .projects-item-image {
@@ -25,7 +26,7 @@
 .projects-item-description {
   align-items: baseline;
   display: flex;
-  font-size: 1em;
+  font-size: 0.9em;
   justify-content: space-between;
   position: absolute;
   bottom: 0;
@@ -33,8 +34,8 @@
   width: 100%;
   margin: 0;
   color: white;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
-  padding: 10px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+  padding: 6px 8px;
   box-sizing: border-box; /* Para asegurarnos de que el padding no afecte el ancho */
 }
 

@@ -18,24 +18,25 @@
 .home-projects__item-description {
   align-items: baseline;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   margin: 0;
   color: white;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
-  padding: 10px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  padding: 8px 10px;
   box-sizing: border-box; /* Para asegurarnos de que el padding no afecte el ancho */
 }
 
 .home-projects__item-description h3 {
+  font-size: 0.9em;
   margin: 0;
 }
 
 .home-projects__item-description p {
-  font-size: 0.8rem;
+  font-size: 0.8em;
   margin: 0;
   text-align: right;
 }

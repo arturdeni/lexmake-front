@@ -103,7 +103,7 @@
     grid-template-rows: auto;
   }
 
-  .project-detail__image:nth-child(n + 3) {
+  .image-container:nth-child(n + 3) {
     grid-column: 1 / -1;
   }
 
