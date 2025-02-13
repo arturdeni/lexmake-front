@@ -1,24 +1,29 @@
 import React, { useState } from "react";
 
+import CheckoutModal from "./CheckoutModal/CheckoutModal";
+
 import BagImage from "./assets/bag.png";
 import "./HomeShopCart.css";
 
+const ItemsArray = [
+  { id: 1, name: "Una nueva web" },
+  { id: 2, name: "Rediseño Marca" },
+  { id: 3, name: "Diseño Redes Sociales" },
+  { id: 4, name: "Catálogo" },
+  { id: 5, name: "Video corporativo" },
+  { id: 6, name: "Nueva Imagen" },
+  { id: 7, name: "Branding" },
+  { id: 8, name: "Animación logotipo" },
+  { id: 9, name: "Packaging" },
+  { id: 10, name: "Foto de Productos" },
+  { id: 11, name: "Planning Redes sociales" },
+  { id: 12, name: "Ideas" },
+];
+
 const HomeShopCart = () => {
-  const [availableItems, setAvailableItems] = useState([
-    { id: 1, name: "Una nueva web" },
-    { id: 2, name: "Rediseño Marca" },
-    { id: 3, name: "Diseño Redes Sociales" },
-    { id: 4, name: "Catálogo" },
-    { id: 5, name: "Video corporativo" },
-    { id: 6, name: "Nueva Imagen" },
-    { id: 7, name: "Branding" },
-    { id: 8, name: "Animación logotipo" },
-    { id: 9, name: "Packaging" },
-    { id: 10, name: "Foto de Productos" },
-    { id: 11, name: "Planning Redes sociales" },
-    { id: 12, name: "Ideas" },
-  ]);
+  const [availableItems, setAvailableItems] = useState(ItemsArray);
   const [selectedItems, setSelectedItems] = useState([]);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleDragStart = (e, item) => {
     e.dataTransfer.setData("text/plain", JSON.stringify(item));
@@ -35,6 +40,11 @@ const HomeShopCart = () => {
     setAvailableItems(
       availableItems.filter((item) => item.id !== droppedItem.id)
     );
+  };
+
+  const handleConfirmPurchase = () => {
+    setSelectedItems([]); // Limpia los items seleccionados
+    setAvailableItems(ItemsArray);
   };
 
   return (
@@ -71,20 +81,31 @@ const HomeShopCart = () => {
         {/* Ticket */}
         <div className="ticket">
           <div className="ticket-header">
-            <h3>Ticket LEXMAKE</h3>
+            <h3>Ticket de compra</h3>
           </div>
           <div className="ticket-items">
             {selectedItems.map((item) => (
               <div key={item.id} className="ticket-item">
-                • {item.name}
+                {item.name}
               </div>
             ))}
           </div>
           {selectedItems.length > 0 && (
-            <button className="finish-button">FINALIZAR COMPRA</button>
+            <button
+              className="finish-button"
+              onClick={() => setIsModalOpen(true)}
+            >
+              FINALIZAR COMPRA
+            </button>
           )}
         </div>
       </div>
+      <CheckoutModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        selectedItems={selectedItems}
+        onConfirm={handleConfirmPurchase}
+      />
     </div>
   );
 };

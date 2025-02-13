@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import gsap from "gsap";
 import quotationMarks from "../../assets/icons/quotation-marks.svg";
 import HomeSkills from "../Home/HomeSkills/HomeSkills";
+import HaveAnIdea from "../shared/HaveAnIdea/HaveAnIdea";
 
 import "./About.css";
 
@@ -18,9 +19,29 @@ const About = () => {
     );
 
     tl.fromTo(
-      ".about-image-background",
-      { scale: 0, opacity: 0 },
-      { scale: 1, opacity: 1, duration: 1, ease: "power2.out" }
+      ".blue-line-mobile",
+      { width: "0%" },
+      { width: "100%", duration: 1, ease: "power1.inOut" },
+      "-=0.5"
+    );
+
+    // Asegúrate de que el elemento existe antes de animarlo
+    const background = document.querySelector(".about-image-background");
+
+    // Modifica la animación del background
+    tl.fromTo(
+      background,
+      {
+        scale: 0,
+        opacity: 0,
+        transformOrigin: "center center",
+      },
+      {
+        scale: 1,
+        opacity: 1,
+        duration: 1,
+        ease: "power2.out",
+      }
     );
   }, []);
 
@@ -37,6 +58,9 @@ const About = () => {
             alt="Alexia Viladot"
           />
         </div>
+
+        <div className="blue-line-mobile"></div>
+
         <div className="about-text-primary">
           <p>
             ¡Hola! Soy <span className="highlight">Alexia</span>, el corazón y
@@ -87,6 +111,7 @@ const About = () => {
         </div>
       </div>
       <HomeSkills />
+      <HaveAnIdea />
     </div>
   );
 };

@@ -166,7 +166,12 @@ const Contact = () => {
       </form>
 
       <div className="contact__info">
-        <p>alexiaviladot@lexmake.com</p>
+        <a
+          className="contact__info-email"
+          href="mailto:alexiaviladot@lexmake.com"
+        >
+          alexiaviladot@lexmake.com
+        </a>
         <div className="contact__social">
           <a
             href="https://www.instagram.com/lexmake_/"
@@ -189,7 +194,9 @@ const Contact = () => {
           >
             <LinkedInIcon color="#0000ff" />
           </a>
-          <WhatsAppIcon color="#0000ff" />
+          <a href="https://wa.me/34600000000" target="_blank" rel="noreferrer">
+            <WhatsAppIcon color="#0000ff" />
+          </a>
         </div>
         <p>Rambla Catalunya 38, Planta 9. 08007, Barcelona</p>
       </div>

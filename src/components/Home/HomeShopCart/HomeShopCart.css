@@ -5,6 +5,7 @@
   margin: auto;
   align-items: center;
   margin-bottom: 150px;
+  cursor: url("../../../assets/icons/hand-icon.svg"), auto;
 }
 
 .tags-container {
@@ -13,19 +14,19 @@
   align-items: center;
   margin-top: 1rem;
   gap: 0.75rem;
+  justify-content: center;
 }
 
 .draggable-tag {
-  background: rgba(188, 183, 171, 0.1);
-  border: 1px solid #e5e7eb;
+  border: 1px solid black;
   border-radius: 9999px;
   padding: 0.5rem 1rem;
-  cursor: grab;
   transition: box-shadow 0.2s ease;
+  color: black;
 }
 
 .draggable-tag:hover {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
 }
 
 .bag-and-ticket {
@@ -63,49 +64,82 @@
 }
 
 .ticket {
-  width: 250px;
+  cursor: default;
   background: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 0.5rem;
-  padding: 1rem;
+  width: 250px;
+  padding: 2rem;
+  position: relative;
+  /* Quitamos el border-radius anterior y la shadow */
 }
 
+/* Creamos el borde irregular superior */
+.ticket::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background-image: url("data:image/svg+xml,%3Csvg width='250' height='8' viewBox='0 0 250 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 8C25 8 25 0 50 0C75 0 75 8 100 8C125 8 125 0 150 0C175 0 175 8 200 8C225 8 225 0 250 0V8H0Z' fill='white'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* Creamos el borde irregular inferior */
+.ticket::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background-image: url("data:image/svg+xml,%3Csvg width='250' height='8' viewBox='0 0 250 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0C25 0 25 8 50 8C75 8 75 0 100 0C125 0 125 8 150 8C175 8 175 0 200 0C225 0 225 8 250 8V0H0Z' fill='white'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* Añadimos líneas punteadas como separadores */
 .ticket-header {
-  border-bottom: 2px solid #e5e7eb;
-  padding-bottom: 0.5rem;
-  margin-bottom: 0.5rem;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .ticket-header h3 {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0;
+  color: black;
 }
 
 .ticket-items {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .ticket-item {
+  color: black;
   font-size: 0.875rem;
 }
 
 .finish-button {
   width: 100%;
-  background-color: var(--primary-color);
-  color: white;
-  border: none;
-  border-radius: 9999px;
-  padding: 0.5rem 0;
-  margin-top: 1rem;
+  background-color: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+  padding: 0.5rem 0 0.2rem;
+  margin-top: 1.5rem;
   cursor: pointer;
+  font-family: var(--runway-font);
+  font-size: 18px;
   transition: background-color 0.2s ease;
 }
 
 .finish-button:hover {
-  background-color: #1d4ed8;
+  background-color: var(--primary-color);
+  color: white;
 }
 
 @media (max-width: 768px) {
